@@ -25,7 +25,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/asig/duplikator/tokenstore"
 	"io"
 	"io/ioutil"
 	"log"
@@ -37,6 +36,7 @@ import (
 
 	"github.com/asig/duplikator/edam"
 	"github.com/asig/duplikator/repository"
+	"github.com/asig/duplikator/tokenstore"
 
 	"golang.org/x/net/html"
 )
